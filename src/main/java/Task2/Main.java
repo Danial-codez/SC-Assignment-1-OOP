@@ -19,8 +19,8 @@ public class Main {
 
         for (Employee employee : employees) {
             System.out.println(
-                employee.name + " - Final Pay: "
-                + employee.calculatePay()
+                    employee.name + " - Final Pay: "
+                    + employee.calculatePay()
             );
         }
     }

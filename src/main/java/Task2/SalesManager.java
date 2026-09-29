@@ -14,7 +14,7 @@ public class SalesManager extends Employee {
     private double commissionRate;
 
     public SalesManager(String name, double baseSalary,
-                        double sales, double commissionRate) {
+            double sales, double commissionRate) {
         super(name, baseSalary);
         this.sales = sales;
         this.commissionRate = commissionRate;
